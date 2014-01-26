@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* id */
+#main_container {
+	width:100%;
+	height:100%;
+	overflow: hidden;
+    position: relative;
+}
+
+#side_menu {
+  width: 239px;
+  height: 100%;
+  min-height: 550px;
+  border-right: 1px solid #e5e5e5;
+  background: #fff;
+  position: relative;
+}
+#content_container {
+  display: inline-block;
+  position: relative;
+  margin-right: 240px;
+  height: 100%;
+}
+
+/* class */
+.relative {
+  position: relative
+}
